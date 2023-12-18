@@ -1,1 +1,52 @@
-#number{width: 15PX;}
+
+body{
+    background: paleturquoise;
+}
+.container{
+    margin: 30PX auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40px;
+}
+.container .articl{
+    border: 2px solid wheat ;
+    margin: 6PX;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding-bottom: 6px;
+    border-radius: 20px;
+        
+}
+.container .one{
+    background: rgb(238, 203, 203);
+}
+.container .tow {
+    background: rgb(200, 223, 223);
+}
+.container .three {
+    background: rgb(189, 238, 248);
+}
+.container .four {
+    background: rgb(203, 237, 246);
+}
+.container .five {
+    background: rgb(210, 233, 243);
+}
+.container .six {
+    background: rgb(218, 233, 233);
+}
+img{
+    width: 220PX;
+    height: 160px;
+    border-radius: 20px;
+}
+.container  #box{
+position: relative;
+    initial-value: none;
+    background: red;
+    top:-134px ;
+    left:10PX
+}
+#number , #prixTota , #prixUnit {width: 39PX;}

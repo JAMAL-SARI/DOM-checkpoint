@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,22 +11,122 @@
     
     <h1>paine d'achete</h1>
     <div class="container">
-        <div class="articl1">
+
+        <!-- 1ere article -->
+        <div class="articl one">
             <img src="./images/phone1.jpg" alt="phone"><br>
-            <label for="">Prix  en MAD</label>
-            <input type="number" value="100" name="" id="" class="prix">
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="3400" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
             <div class="accesoire">  
-                <input type="checkbox" checked style="width: 20px;">
+                <input id="box" type="checkbox" checked style="width: 20px;">
                 <button class="discre">-</button>
-                 <input type="number" id="number">
-                 <button class="discre">+</button>
-                 <button class="supremer">supremer</button> 
-                <button class="aimer"><i class="fa-regular fa-heart" style="color: gray; "></i></button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                  
+                <button class="aimer"><i id="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
+              
+            </div>
+            <button class="supremer">supremer</button>
+         </div>
+
+          <!-- 2eme article -->
+
+         <div class="articl  tow">
+            <img src="./images/phone2.jpg" alt="phone"><br>
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="5000" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
+            <div class="accesoire">  
+                <input id="box" type="checkbox" checked style="width: 20px;">
+                <button class="discre">-</button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                 
+                <button class="aimer"><i id="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
               
                 </div>
+                 <button class="supremer">supremer</button>
          </div>
-    </div>
 
+          <!-- 3eme article -->
+
+         <div class="articl  three">
+            <img src="./images/pc1.jpg" alt="phone"><br>
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="7000" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
+            <div class="accesoire">  
+                <input id="box" type="checkbox" checked style="width: 20px;">
+                <button class="discre">-</button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                 
+                <button class="aimer"><i id="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
+              
+                </div>
+                <button class="supremer">supremer</button> 
+         </div>
+
+
+          <!-- 4eme article -->
+         <div class="articl  four">
+            <img src="./images/pc2.jpg" alt="phone"><br>
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="6700" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
+            <div class="accesoire">  
+                <input id="box" type="checkbox" checked style="width: 20px;">
+                <button class="discre">-</button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                  
+                <button class="aimer"><i id="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
+              
+                </div>
+                <button class="supremer">supremer</button>
+         </div>
+
+         <div class="articl five">
+            <img src="./images/ectoute bluethood1.jpg" alt="phone"><br>
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="300" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
+            <div class="accesoire">  
+                <input id="box" type="checkbox" checked style="width: 20px;">
+                <button class="discre">-</button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                  
+                <button class="aimer"><i id="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
+              
+                </div>
+                <button class="supremer">supremer</button>
+         </div>
+         <div class="articl  six">
+            <img src="./images/watche1.jpg" alt="watche"><br>
+            <label for="">Prix unitaire en MAD</label>
+            <input type="text" value="450" id="prixUnit" > <br>
+            <label for="">Prix total en MAD</label>
+            <input type="text" value="" id="prixTota" >
+            <div class="accesoire">  
+                <input id="box" type="checkbox" checked style="width: 20px;">
+                <button class="discre">-</button>
+                 <input type="text" id="number" value="1">
+                 <button class="crem">+</button>
+                 
+                <button class="aimer"><i class="coeur" class="fa-regular fa-heart" style="color: gray; "></i></button>
+              
+                </div> 
+                <button class="supremer">supremer</button>
+         </div>
+       
+    </div>
 
 
     <script src="main.js"></script>
