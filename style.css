@@ -1,6 +1,23 @@
+:root{
+    --clrback:rgb(163, 232, 241);
+    --clrproda:rgb(131, 224, 245);
 
+}
 body{
-    background: paleturquoise;
+    background:var(--clrback);
+}
+
+h1{
+    position: relative;
+    display: inline;
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+    border-radius: 30%;
+    right: -250px;
+
+}
+.quant{
+    background:linear-gradient(rgb(171, 227, 234),rgb(220, 236, 220));
 }
 .container{
     margin: 30PX auto;
@@ -19,24 +36,10 @@ body{
     border-radius: 20px;
         
 }
-.container .one{
-    background: rgb(238, 203, 203);
+.container .one , .container .tow , .container .three ,.container .four , .container .five ,.container .sixe{
+    background: var(--clrproda);
 }
-.container .tow {
-    background: rgb(200, 223, 223);
-}
-.container .three {
-    background: rgb(189, 238, 248);
-}
-.container .four {
-    background: rgb(203, 237, 246);
-}
-.container .five {
-    background: rgb(210, 233, 243);
-}
-.container .six {
-    background: rgb(218, 233, 233);
-}
+
 img{
     width: 220PX;
     height: 160px;
